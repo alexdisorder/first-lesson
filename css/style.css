@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font: 14px/22px Arial;
+}
+.container {
+  width: 36%;
+  margin: auto ;
+  border: 2px solid #000;
+  padding: 30px;
+}
+
+.container h2, h3 {
+  font-size: 25px;
+  text-align: center;
+}
+.container h3 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.container p {
+  text-indent: 1.5em
+}
+.container p:first-of-type {
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px 0;
+}
+.italic {
+  font-style: italic;
+}
+table {
+  margin: 10px auto 20px;
+  width: 63%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+td {
+  width: 50%;
+}
